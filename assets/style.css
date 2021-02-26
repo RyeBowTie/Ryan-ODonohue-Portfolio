@@ -1,21 +1,44 @@
 :root {
-
+/* CSS HEX  from coolors.co*/
+--xanadu: #637e6eff;
+--royal-purple: #735290ff;
+--black-chocolate: #191102ff;
+--pastel-pink: #daa49aff;
+--beige: #eaefd3ff;
 }
 
 html {
-
+    font-size: 18px;
+    background-color: var(--beige);
 }
 
 body {
-
+    
 }
 
 header {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    background-color: var(--xanadu);
+    box-shadow: 2rem 0 2rem  var(--black-chocolate);
+    margin-bottom: 6rem;
 }
 
+header h1 {
+    padding-left: 3rem;
+    font-size: 3rem;
+    color: var(--beige);
+}
 nav {
-
+    padding-right: 3rem;
+}
+nav a{
+    display: inline;
+    padding: 0.5rem;
+    color: var(--beige);
+    color
 }
 
 main {
