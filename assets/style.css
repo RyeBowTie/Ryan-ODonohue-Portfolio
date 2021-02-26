@@ -31,9 +31,11 @@ header h1 {
     font-size: 3rem;
     color: var(--beige);
 }
+
 nav {
     padding-right: 3rem;
 }
+
 nav a{
     display: inline;
     padding: 0.5rem;
@@ -41,12 +43,34 @@ nav a{
     color
 }
 
+h2 + img {
+    width: 200px;
+    height:200px;
+}
+
 main {
 
 }
 
 section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 2rem 2rem   var(--black-chocolate);
+    margin: 6rem;
+    padding: 6rem;
+}
 
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+.biography p {
+    width: 50%;
+    padding: 1rem;
+    float: right;
 }
 
 .about-me {
@@ -54,7 +78,7 @@ section {
 }
 
 .projects {
-
+    
 }
 
 .contact {
