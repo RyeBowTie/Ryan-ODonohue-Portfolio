@@ -27,6 +27,7 @@ header h1 {
     padding-left: 3rem;
     font-size: 3rem;
     color: var(--beige);
+    font-family: 'Anton', sans-serif;
 }
 
 nav {
@@ -37,6 +38,7 @@ nav a{
     display: inline;
     padding: 0.5rem;
     color: var(--beige);
+    font-family: 'Shippori Mincho', serif;
 }
 
 h2 {
@@ -44,6 +46,7 @@ h2 {
     margin-bottom: 5rem;
     text-align: center;
     color: var(--black-chocolate);
+    font-family: 'Rubik', sans-serif;
 }
 
 img {
@@ -70,6 +73,8 @@ section {
 .biography img, .biography p {
     padding: 1rem;
     line-height: 1.2rem;
+    font-family: 'Shippori Mincho', serif;
+    color: var(--black-chocolate);
 }
 
 .projects h3 {
@@ -77,9 +82,13 @@ section {
     left: 5rem;
     font-size: 1.2rem;
     color: var(--black-chocolate);
+    font-family: 'Rubik', sans-serif;
 }
 
-
+.project:hover {
+    transition: .5s ease-in-out;
+    transform: scale(1.1);
+}
 .contact {
     font-size: 1.2rem;
 }
@@ -87,4 +96,5 @@ section {
 .contact h3, .contact a {
     padding: 1rem;
     color: var(--black-chocolate);
+    font-family: 'Rubik', sans-serif;
 }
