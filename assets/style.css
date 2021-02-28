@@ -10,10 +10,7 @@
 html {
     font-size: 18px;
     background-color: var(--beige);
-}
-
-body {
-    
+    line-height: 1.1rem;
 }
 
 header {
@@ -40,47 +37,54 @@ nav a{
     display: inline;
     padding: 0.5rem;
     color: var(--beige);
-    color
 }
 
-h2 + img {
-    width: 200px;
-    height:200px;
+h2 {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    color: var(--black-chocolate);
 }
 
-main {
-
+img {
+    width: 12rem ;
+    height: 12rem;
+    margin: 1rem;
 }
 
 section {
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: space-around;
     box-shadow: 0 2rem 2rem   var(--black-chocolate);
     margin: 6rem;
     padding: 6rem;
 }
 
-section h2 {
-    font-size: 2rem;
-    margin-bottom: 5rem;
+.biography {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
-.biography p {
-    width: 50%;
+.biography img, .biography p {
     padding: 1rem;
-    float: right;
+    line-height: 1.2rem;
 }
 
-.about-me {
-
+.projects h3 {
+    position: relative;
+    left: 5rem;
+    font-size: 1.2rem;
+    color: var(--black-chocolate);
 }
 
-.projects {
-    
-}
 
 .contact {
-    
+    font-size: 1.2rem;
+}
+
+.contact h3, .contact a {
+    padding: 1rem;
+    color: var(--black-chocolate);
 }
